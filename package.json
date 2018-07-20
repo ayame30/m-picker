@@ -8,6 +8,9 @@
     "react-m-picker",
     "m-picker"
   ],
+  "engines": {
+    "node": "8.9.x || 9.x"
+  },
   "homepage": "https://github.com/react-component/m-picker",
   "repository": {
     "type": "git",
@@ -54,24 +57,24 @@
   "dependencies": {
     "babel-runtime": "6.x",
     "classnames": "^2.2.0",
-    "rmc-feedback": "^2.0.0",
-    "rmc-dialog": "^1.0.1"
+    "rmc-dialog": "^1.0.1",
+    "rmc-feedback": "^2.0.0"
   },
   "devDependencies": {
-    "@types/mocha": "~2.2.32",
-    "@types/react": "^15.5.1",
-    "@types/react-dom": "^15.5.1",
-    "@types/react-native": "^0.46.9",
-    "array-tree-filter": "1.x",
+    "@types/mocha": "~5.2.5",
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-native": "^0.56.3",
+    "array-tree-filter": "2.x",
     "expect.js": "0.3.x",
     "fastclick": "^1.0.6",
     "pre-commit": "1.x",
     "rc-test": "6.x",
-    "rc-tools": "6.x",
-    "react": "15.5.x",
-    "react-dom": "15.5.x",
-    "react-native": "~0.42.0",
-    "react-native-index-page": "~0.2.1"
+    "rc-tools": "8.x",
+    "react": "^16.4.1",
+    "react-dom": "^16.2.0",
+    "react-native": "~0.56.0",
+    "react-native-index-page": "~2.0.0"
   },
   "typings": "./lib/index.d.ts",
   "pre-commit": [
